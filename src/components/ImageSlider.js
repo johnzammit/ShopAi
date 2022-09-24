@@ -3,6 +3,7 @@ import { SliderData } from './SliderData';
 import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from 'react-icons/fa';
 import styled from 'styled-components';
 
+
 const ImageSlider = ({ slides }) => {
   const [current, setCurrent] = useState(0);
   const length = slides.length;
@@ -29,7 +30,9 @@ const ImageSlider = ({ slides }) => {
   opacity: 0;
 `;
   return (
+      
     <section className='slider'>
+         
       <Button className='left-arrow' onClick={prevSlide} />
       <Button className='right-arrow' onClick={nextSlide} />
       {SliderData.map((slide, index) => {
@@ -45,6 +48,7 @@ const ImageSlider = ({ slides }) => {
         );
       })}
     </section>
+    
   );
 };
 
