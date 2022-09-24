@@ -1,73 +1,43 @@
-@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap");
-
-* {
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
-	font-family: "Titillium Web", sans-serif;
+html {
+  font-size: 72.5%;
 }
-
-:root {
-	--mainColor: #29335c;
-	--mainColorLight: #5767aa;
-	--secondaryColor: #db2b39;
-	--textColor: #eee;
+body {
+  font-size: 1.9rem;
 }
-
-header {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	height: 80px;
-	padding: 0 2rem;
-	background-color: var(--mainColor);
-	color: var(--textColor);
+li {
+  list-style: none;
+  display: inline-block;
+  padding-left: 22%;
+  text-align: center;
 }
-
-nav a {
-	margin: 0 1rem;
-	color: var(--textColor);
-	text-decoration: none;
-}
-
-nav a:hover {
-	color: var(--secondaryColor);
+a {
+  text-decoration: none;
+  color: rgb(36, 32, 32);
+  font-family: Georgia;
+  text-align: center;
 }
 
 
+a:hover {
+  text-decoration: underline;
+  text-decoration-color: red;
 
-header div,
-nav {
-	display: flex;
-	align-items: center;
 }
 
+.nav {
+  display: center;
+  align-items: center;
+  justify-content: space-around;
+  height: 8vh;
+  background: rgb(255, 255, 255);
+}
 
-
-	header nav {
-		position: fixed;
-		top: 0;
-		left: 0;
-		height: 100%;
-		width: 100%;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-		gap: 1.5rem;
-		background-color: var(--mainColor);
-		transition: 1s;
-		transform: translateY(-100vh);
-	}
-
-	header .responsive_nav {
-		transform: none;
-	}
-
-
-	nav a {
-		font-size: 1.5rem;
-	}
+.nav__menu {
+  display: center;
+  align-items: center;
+  justify-content: space-around;
+  gap: 3rem;
+}
 
 .slider {
   position: relative;
@@ -115,6 +85,6 @@ nav {
 
 .slide.active {
   opacity: 1;
-  transition-duration: 1s;
+  transition-duration: 0.5s;
   transform: scale(1.08);
 }

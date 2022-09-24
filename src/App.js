@@ -5,8 +5,15 @@ import { SliderData } from './components/SliderData';
 import Navbar from './components/Navbar';
 
 function App() {
-  return ( <Navbar/>, 
-  <ImageSlider slides={SliderData} />);
+  return ( 
+    <>
+  <div> 
+    <Navbar />
+  </div> 
+  <ImageSlider slides={SliderData} /> 
+
+  </>
+   );
 }
 
 export default App;
