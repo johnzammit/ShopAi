@@ -6,6 +6,7 @@ If you click to the left and right of the picture, you will cylce through the pi
 How the code works:
 - Put the 5 pictures in an array
 - Made each button add or subtract the array index creating the slide effect
+- display the current array index
 - Navbar is just a normal and basic navbar
 
 Future improvements:
