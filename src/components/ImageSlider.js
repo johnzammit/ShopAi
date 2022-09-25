@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import { SliderData } from './SliderData';
-import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from 'react-icons/fa';
+import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from 'react-icons/fa';// used to test out ImageSlider function before I made the custom button
 import styled from 'styled-components';
 
 
 const ImageSlider = ({ slides }) => {
-  const [current, setCurrent] = useState(0);
+  const [current, setCurrent] = useState(0); //important hook to track the variables in the function
   const length = slides.length;
 
   const nextSlide = () => {
@@ -19,7 +19,7 @@ const ImageSlider = ({ slides }) => {
   if (!Array.isArray(slides) || slides.length <= 0) {
     return null;
   }
-  const Button = styled.button`
+  const Button = styled.button` //custom button using 'styled components' - this was just my solution to get the invisible button 
   background-color: white;
   color: white;
   font-size: 0px;
@@ -42,7 +42,7 @@ const ImageSlider = ({ slides }) => {
             key={index}
           >
             {index === current && (
-              <img src={slide.image} alt='travel image' className='image' />
+              <img src={slide.image} alt='bedroom image' className='image' />
             )}
           </div>
         );
