@@ -32,13 +32,6 @@ a:hover {
   background: rgb(255, 255, 255);
 }
 
-.nav__menu {
-  display: center;
-  align-items: center;
-  justify-content: space-around;
-  gap: 3rem;
-}
-
 .slider {
   position: relative;
   height: 100vh;
