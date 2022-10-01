@@ -1,3 +1,5 @@
+Picture Carousel clone of https://samuelbradley.com/portfolio/portfolio/ .
+
 First you will need to install Node.js, git, and yarn. I did this through Homebrew, which I would reccomend.
 
 In terminal launch it with 'yarn start'.
@@ -10,8 +12,5 @@ How the code works:
 - Navbar is just a normal and basic navbar
 
 Future improvements:
-- footer (super simple one that is regular)
-- logo for the site
-- text on the screen (maybe a header like "Picture Carousel")
 - make a seperate css file for each component (so its not all clogged up in App.css and easier to access/read)
 
