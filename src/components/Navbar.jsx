@@ -7,22 +7,17 @@ function Navbar() {
     <nav className="nav">
       
       <ul>
-        <li className="nav__item">
-          <a href="#" className="nav__link">
-            Home
+        
+          <a>
+            HOME
           </a>
-        </li>
-        <li className="nav__item">
-          <a href="#" className="nav__link">
-            News
+          <a>
+            NEWS
           </a>
-        </li>
-        <li className="nav__item">
-          <a href="#" className="nav__link">
-            Contact
+          <a>
+            CONTACT
           </a>
-        </li>
-       
+        
       </ul>
       
     </nav>
