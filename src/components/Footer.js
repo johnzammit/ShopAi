@@ -9,7 +9,7 @@ function Footer() {
     <nav className="footer">
       <footer/>  
       <p>
-      Samuel Bradley © 2022 · All rights reserved
+      ShopAi 
       </p>
         <footer/>
     </nav>

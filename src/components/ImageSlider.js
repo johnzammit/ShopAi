@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import { SliderData } from './SliderData';
-import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from 'react-icons/fa';// used to test out ImageSlider function before I made the custom button
 import styled from 'styled-components';
-
 
 const ImageSlider = ({ slides }) => {
   const [current, setCurrent] = useState(0); //important hook to track the variables in the function
